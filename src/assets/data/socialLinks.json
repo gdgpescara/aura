@@ -1,0 +1,27 @@
+[
+    {
+        "name" : "Telegram",
+        "link" : "https://gdgpescara.page.link/telegram",
+        "icon" : "fab fa-telegram"
+    },
+    {
+        "name" : "Facebook",
+        "link" : "https://www.facebook.com/gdgpescara/",
+        "icon" : "fab fa-facebook"
+    },
+    {
+        "name" : "Twitter",
+        "link" : "https://twitter.com/gdgpescara",
+        "icon" : "fab fa-twitter"
+    },
+    {
+        "name" : "Instragram",
+        "link" : "https://www.meetup.com/GDG-Pescara/",
+        "icon" : "fab fa-instagram"
+    },
+    {
+        "name" : "Meetup",
+        "link" : "https://www.meetup.com/GDG-Pescara/",
+        "icon" : "fab fa-meetup"
+    }
+]

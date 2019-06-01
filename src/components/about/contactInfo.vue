@@ -42,12 +42,10 @@
 </template>
 
 <script>
-import ChapterDetails from '@/assets/data/chapterDetails.json'
 import aboutPage from '@/assets/data/aboutPage.json'
 export default {
     data() {
         return {
-            chapterDetails: ChapterDetails,
             aboutPage:aboutPage
         }
     },

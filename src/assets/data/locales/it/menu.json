@@ -1,0 +1,9 @@
+{
+    "Menu": {
+        "Home" : "Home",
+        "Events" : "Eventi",
+        "Team" : "Team",
+        "About" : "Chi siamo",
+        "Contacts" : "Contatti"
+    }
+}

@@ -1,10 +1,10 @@
 <template>
     <v-container class="pa-0">
-        <v-layout wrap align-start justify-start row fill-height class="mt-0 mb-0">
-            <v-flex xs6 sm3 md2 lg2 v-for="(item,i) in TeamDetails" :key="i" class="text-xs-center" style="text-align:center">
+        <v-layout wrap align-start justify-center row fill-height class="mt-0 mb-0">
+            <v-flex sm3 md2 lg2 v-for="(item,i) in TeamDetails" :key="i" class="text-xs-center" style="text-align:center">
                 <!-- style="text-align:center;border: 1px solid #e0e0e0;min-height:250px;border-radius:7px" -->
                 <div 
-                    class="text-xs-center ma-1 pa-1 py-5 my-0" >
+                    class="text-xs-center ma-2 pa-1 py-5 my-0" >
                     <v-avatar size="100">
                         <v-img
                         :src="getImgUrl(item.profileImage)"
@@ -22,7 +22,7 @@
                         
                         </v-img>
                     </v-avatar>
-                    <p class="mt-3 mb-0 google-font" style="font-size:130%">{{item.name}}</p>
+                    <p class="mt-3 mb-0 google-font" style="font-size:120%">{{item.name}}</p>
                     <p class="mt-1 mb-0 google-font">{{item.designation}}</p>
 
                     <v-btn class="mt-0 mx-0" icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
@@ -50,10 +50,11 @@
 
 <script>
 import TeamDetails from '@/assets/data/coreTeam.json'
+import _ from 'lodash'
 export default {
     data() {
         return {
-            TeamDetails: TeamDetails,
+            TeamDetails: _.shuffle(TeamDetails),
             showLoader: true,
             showData:false,
         }

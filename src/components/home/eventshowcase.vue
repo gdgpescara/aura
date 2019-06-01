@@ -165,12 +165,10 @@
 </template>
 
 <script>
-import ChapterDetails from '@/assets/data/chapterDetails.json'
 import { MeetupAPI } from '@/config/key'
 export default {
     data() {
         return {
-            chapterDetails: ChapterDetails,
             eventsData:[],
             showLoader: true,
             showData:false,

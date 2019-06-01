@@ -4,7 +4,7 @@
             <v-flex xs12 md12>
                 <p class="google-font mt-2 mb-0" style="font-size:170%;color:#37474F;" >Partners</p>
                 <p class="google-font mt-1 mb-0" style="font-size:120%">A very big thank you to all our partners for their continued partnership.</p>
-                <p class="google-font mt-0" style="font-size:120%">If you’re interested in being showcased throughout <b>{{chapterDetails.ChapterName}}</b>, contact <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${chapterDetails.ChapterEmail}`">{{chapterDetails.ChapterEmail}}</a> to discuss sponsorship opportunities.</p>
+                <p class="google-font mt-0" style="font-size:120%">If you’re interested in being showcased throughout <b>{{ $t('ChapterName') }}</b>, contact <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${ChapterInfos.ChapterEmail}`">{{ChapterInfos.ChapterEmail}}</a> to discuss sponsorship opportunities.</p>
             </v-flex>
 
             <v-flex xs12 md12 class="mt-2">
@@ -119,12 +119,12 @@
 
 <script>
 import datap from '@/assets/data/partners.json'
-import chapterDetails from '@/assets/data/chapterDetails.json'
+import ChapterInfos from '@/assets/data/chapterInfos.json'
 export default {
     data() {
         return {
             partnerData: datap,
-            chapterDetails: chapterDetails
+            ChapterInfos: ChapterInfos
         }
     },
     methods:{

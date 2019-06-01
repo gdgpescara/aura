@@ -8,7 +8,7 @@
       <v-layout wrap align-center justify-center row fill-height class="my-0 py-0">
         <v-flex xs12 md10 sm10 lg10 class="py-0 my-0">
           <p class="google-font" style="font-size:130%" >Follow Us:
-            <span v-for="(item,i) in ChapterDetails.socialLinks" :key="i">
+            <span v-for="(item,i) in SocialLinks" :key="i">
               <v-tooltip top>
                   <v-btn flat icon :href="item.link" target="_blank" slot="activator">
                     <v-icon>{{item.icon}}</v-icon>
@@ -53,7 +53,7 @@
         <v-flex xs12 md10 lg10>
           <v-divider></v-divider>
            <v-toolbar flat color="white" class="pa-0 mx-0" style="padding:0 !important" >
-              <v-toolbar-title class="google-font pl-0 ml-0 mr-3" style="font-size:200%">{{ChapterDetails.ChapterName}}</v-toolbar-title>
+              <v-toolbar-title class="google-font pl-0 ml-0 mr-3" style="font-size:200%">{{ $t('ChapterName') }}</v-toolbar-title>
 
               <v-btn
                   v-for="(item,i) in FooterData.FooterEndSession" 
@@ -74,12 +74,12 @@
 </template>
 
 <script>
-  import ChapterDetails from '@/assets/data/chapterDetails.json'
+  import SocialLinks from '@/assets/data/socialLinks.json'
   import FooterData from '@/assets/data/footer.json'
   export default {
     data() {
       return {
-        ChapterDetails:ChapterDetails,
+        SocialLinks:SocialLinks,
         FooterData:FooterData
       }
     },

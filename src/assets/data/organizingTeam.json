@@ -1,46 +1,46 @@
 [
     {
-        "name":"Name",
-        "designation":"Development",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"https://github.com/",
-        "profileImage":"",
+        "name":"Gregorio Palamà",
+        "designation":"GDG Pescara Lead",
+        "twitter":"https://twitter.com/gregoriopalama",
+        "linkedin":"https://www.linkedin.com/in/gregorio-palam%C3%A0/",
+        "github":"",
+        "profileImage":"gregorio-palama.png",
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Management",
+        "name":"Francesca Scozzari",
+        "designation":"GDG Pescara Lead",
         "twitter":"",
-        "linkedin":"https://www.linkedin.com/",
+        "linkedin":"https://www.linkedin.com/in/francesca-scozzari-a46b947/",
         "github":"",
         "profileImage":"",
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Development",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"https://www.github.com/",
+        "name":"Simone Di Nardo Di Maio",
+        "designation":"GDG Pescara Lead",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/simone-di-nardo-di-maio-85b14a31/",
+        "github":"",
         "profileImage":"",
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Development",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://linkedin.com/",
-        "github":"https://github.com/",
+        "name":"Antonio Passarella",
+        "designation":"GDG Pescara Lead",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/antonio-passarella-84a99163/",
+        "github":"",
         "profileImage":"",
-        "website":"https://github.com"
+        "website":""
     },
     {
-        "name":"Name",
-        "designation":"Development",
-        "twitter":"https://twitter.com/",
-        "linkedin":"",
-        "github":"https://github.com/",
+        "name":"Antonio Di Marino",
+        "designation":"GDG Pescara Lead",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/antoniodimarino/",
+        "github":"",
         "profileImage":"",
         "website":""
     }

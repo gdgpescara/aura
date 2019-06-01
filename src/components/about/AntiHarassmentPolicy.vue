@@ -6,7 +6,7 @@
                 <p class="google-font" style="font-size:180%;color:#0277bd">Anti-Harassment Policy</p>
 
                 <p class="google-font" style="font-size:110%">
-                    <b style="font-size:120%;color: #2E2E2E;">Why do we have an official Anti-Harassment policy for {{chapterDetails.ChapterName}} events?</b>
+                    <b style="font-size:120%;color: #2E2E2E;">Why do we have an official Anti-Harassment policy for {{ $t('ChapterName') }} events?</b>
 
                     <ul class="mt-2" style="font-size:110%">
                         <li class="google-font">It sets expectations for behavior at the event. Simply having an anti-harassment policy can prevent harassment.</li>
@@ -16,7 +16,7 @@
                 </p>
 
                 <p class="google-font" style="font-size:110%">
-                    <b style="font-size:120%;color: #2E2E2E;">{{chapterDetails.ChapterName}} is dedicated to providing a harassment-free event experience for everyone, regardless of: </b>
+                    <b style="font-size:120%;color: #2E2E2E;">{{ $t('ChapterName') }} is dedicated to providing a harassment-free event experience for everyone, regardless of: </b>
 
                     <ul class="mt-2" style="font-size:110%">
                         <li class="google-font">Gender</li>
@@ -67,13 +67,3 @@
     </v-container>
 </template>
 
-<script>
-import ChapterDetails from '@/assets/data/chapterDetails.json'
-export default {
-    data() {
-        return {
-            chapterDetails: ChapterDetails,
-        }
-    },
-}
-</script>

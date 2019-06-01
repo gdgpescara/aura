@@ -1,56 +1,47 @@
 [
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
+        "name":"Gregorio Palamà",
+        "designation":"GDG Pescara Lead",
+        "twitter":"https://twitter.com/gregoriopalama",
+        "linkedin":"https://www.linkedin.com/in/gregorio-palam%C3%A0/",
+        "github":"",
+        "profileImage":"gregorio-palama.png",
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
+        "name":"Francesca Scozzari",
+        "designation":"GDG Pescara Lead",
         "twitter":"",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
+        "linkedin":"https://www.linkedin.com/in/francesca-scozzari-a46b947/",
+        "github":"",
+        "profileImage":"francesca-scozzari.jpg",
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
+        "name":"Simone Di Nardo Di Maio",
+        "designation":"GDG Pescara Lead",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/simone-di-nardo-di-maio-85b14a31/",
+        "github":"",
+        "profileImage":"simone-dinardodimaio.jpg",
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
+        "name":"Antonio Passarella",
+        "designation":"GDG Pescara Lead",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/antonio-passarella-84a99163/",
+        "github":"",
+        "profileImage":"antonio-passarella.jpg",
+        "website":""
+    },
+    {
+        "name":"Antonio Di Marino",
+        "designation":"GDG Pescara Lead",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/antoniodimarino/",
+        "github":"",
+        "profileImage":"antonio-di-marino.jpg",
         "website":""
     }
 ]
