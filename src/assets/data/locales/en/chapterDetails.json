@@ -1,11 +1,11 @@
 {
     "ChapterName":"GDG Pescara",
-    "ChapterShortDescription":"Test",
-    "ChapterLongDec":"EN Lo scopo del GDG Pescara è quello di sviluppare una comunità di persone interessate ad approfondire gli aspetti delle tecnologie di volta in volta trattate, incontrandosi, scambiandosi idee e, perché no, facendo amicizia in un ambiente informale e aperto.",
+    "ChapterShortDescription":"GDG Pescara is formed by a group of developers passionate about Google's technologies, and aims to involve and inform the community of Pescara about everything related to technology, with an eye to the Google world.",
+    "ChapterLongDec":"The purpose of GDG Pescara is to develop a community of people interested in exploring the aspects of technologies by meeting, exchanging ideas and, why not, making friends in an informal and open environment.",
     "ChapterMeetupLink":"https://www.meetup.com/GDG-Pescara",
     "ChapterEmail":"info@gdgpescara.it",
     "website":"https://www.gdgpescara.it",
     "GDGProgramWebsite":"https://developers.google.com/programs/community/",
     "ChapterHashTags":["GDGPescara","GDG"],
-    "aboutGDGProgram":"I Google Developer Group (GDG) sono gruppi di persone interessate allo sviluppo software ed hardware con tecnologie Google. I GDG sono presenti in oltre 100 paesi in tutto il mondo. Ogni anno si organizzano più di 7.000 eventi legati alle tematiche GDG."
+    "aboutGDGProgram":"Google Developer Groups (GDG) are groups of people interested in software and hardware development using Google's technologies. GDGs are present in over 100 countries around the world. Every year more than 7,000 events are organized by GDGs."
 }

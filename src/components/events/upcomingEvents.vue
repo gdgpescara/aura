@@ -52,8 +52,45 @@
                 </v-card>
             </v-flex>
 
-            <v-flex xs12 sm6 md4 lg4 v-for="(item,i) in eventsData" :key="i">
-                <v-card 
+            <v-flex xs12 sm6 md4 lg4 v-for="(item,i) in eventsData" :key="i" pa-1 py-2>
+                <v-slide-y-reverse-transition>
+                    <v-list two-line subheader v-show="showData" style="background:none;">
+                        <a :href="item.link" class="event-card">
+                            <v-img
+                                class="event-image"
+                                v-if="item.featured_photo" 
+                                :src="item.featured_photo.photo_link"
+                                />
+                            <v-img
+                                class="event-image-effect"
+                                v-if="item.featured_photo" 
+                                :src="item.featured_photo.photo_link"
+                                />
+                            <v-card>
+                                
+                                <v-card-title>
+                                    <div>
+                                        <p class="google-font mb-2" style="font-size:140%;color:#0277bd">{{ item.name }}</p>
+                                        <p class="google-font mt-2 mb-1"><span v-html="$options.filters.summery(item.description,180)" style="font-size:110%"></span></p>
+                                        <p class="google-font mt-1 mb-0" style="font-size:110%">
+                                            <v-icon>insert_invitation</v-icon>
+                                            {{item.local_date}}
+                                        </p>
+                                        <p class="google-font mt-1 mb-0" style="font-size:110%">
+                                            <v-icon>watch_later</v-icon>
+                                            {{item.local_time}}
+                                        </p>
+                                        <p class="google-font mt-1 mb-0" style="font-size:110%">
+                                            <v-icon>map</v-icon>
+                                            {{item.venue.name | summery(30)}}
+                                        </p>
+                                    </div>
+                                </v-card-title>
+                            </v-card>
+                        </a>
+                    </v-list>
+                </v-slide-y-reverse-transition>
+                <!--<v-card 
                     flat
                     class="ma-1 pa-1 my-0 elevation-0" 
                     style="border-radius:7px;border:1px #ddd solid">
@@ -83,7 +120,7 @@
                         <v-btn flat color="#4C4A78" :href="item.link" target="_blank" class="mb-0 ml-0 mt-0 google-font" style="border-radius:7px;text-transform: capitalize;">See More</v-btn> 
                     </v-card-actions>
                     
-                </v-card>
+                </v-card>-->
             </v-flex>
 
             <v-flex xs12 v-if="notFoundUpcomingEventFlag==true">
@@ -169,6 +206,7 @@
 
 <script>
 import { MeetupAPI } from '@/config/key'
+import _ from 'lodash'
 
 export default {
     data() {
@@ -182,11 +220,11 @@ export default {
         }
     },
     created(){
-        fetch('https://cors-anywhere.herokuapp.com/https://api.meetup.com/'+MeetupAPI.urlname+'/events?key='+MeetupAPI.apiKey).then(data=>data.json()).then(res=>{
+        fetch('https://cors-anywhere.herokuapp.com/https://api.meetup.com/'+MeetupAPI.urlname+'/events?fields=featured_photo&status=past&key='+MeetupAPI.apiKey).then(data=>data.json()).then(res=>{
             if(res.length>0){
                 this.showLoader = false
                 this.showData = true
-                this.eventsData = res
+                this.eventsData = _.take(_.filter(res, function (event) { return event.featured_photo != null }),3)
             }else{
                 this.showLoader = false
                 this.notFoundUpcomingEventFlag = true
@@ -244,6 +282,41 @@ export default {
         0%{background-position:0% 52%}
         50%{background-position:100% 49%}
         100%{background-position:0% 52%}
+    }
+
+    .event-image {
+        border-radius: 6px;
+        z-index: 2;
+        width: 95%;
+        height: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .event-image-effect {
+        border-radius: 6px;
+        z-index: 1;
+        width: 92%;
+        filter: blur(10px);
+        opacity: 1;
+        height: 200px;
+        margin: -190px auto 0;
+        text-align: center;
+    }
+
+    .event-card .v-card {
+        border-radius: 6px;
+        margin-top: -140px;
+        padding-top: 140px;
+        padding-bottom: 15px;
+        font-size: 120%;
+        display: flex;
+    }
+
+    .event-card-loading .v-card {
+        border-radius: 6px;
+        padding-bottom: 15px;
+        font-size: 120%;
     }
 </style>
 

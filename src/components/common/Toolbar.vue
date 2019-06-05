@@ -3,6 +3,7 @@
     app
     color="white"
     height="55px"
+    style="z-index: 10"
     scroll-off-screen
   >
     <v-toolbar-side-icon
@@ -40,7 +41,6 @@
     mapMutations
   } from 'vuex'
   import _ from 'lodash'
-  import $ from 'jquery'
   import emojiFlags from 'emoji-flags'
 
   function loadLocales() {

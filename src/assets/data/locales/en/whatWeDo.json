@@ -1,0 +1,28 @@
+{
+    "WhatWeDo" : {
+        "WhatWeDo" : "What we do?",
+        "What" : "Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology, like:",
+        "Activities" : [
+            {
+                "Icon": "chat_bubble",
+                "Title": "Talks",
+                "Description": "Get updated with the latest news and announcements"
+            },
+            {
+                "Icon": "code",
+                "Title": "Codelabs",
+                "Description": "Get hands-on experience and guidance from the community members"
+            },
+            {
+                "Icon": "keyboard",
+                "Title": "Apericode",
+                "Description": "Code all together while having an happy hour"
+            },
+            {
+                "Icon": "laptop",
+                "Title": "Study Jams",
+                "Description": "Learn a new technology, together"
+            }
+        ]
+    }
+}

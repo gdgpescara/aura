@@ -1,0 +1,28 @@
+{
+    "WhatWeDo" : {
+        "WhatWeDo" : "Cosa facciamo?",
+        "What" : "I Google Developer Group (GDG) sono indirizzati agli sviluppatori interessati alle tecnologie Google, come:",
+        "Activities" : [
+            {
+                "Icon": "chat_bubble",
+                "Title": "Talk",
+                "Description": "Ci teniamo aggiornati con le ultime notizie e annunci"
+            },
+            {
+                "Icon": "code",
+                "Title": "Codelab",
+                "Description": "Facciamo esperienza facendoci guidare dai membri della community"
+            },
+            {
+                "Icon": "keyboard",
+                "Title": "Apericode",
+                "Description": "Scriviamo codice tutti insieme durante un aperitivo"
+            },
+            {
+                "Icon": "laptop",
+                "Title": "Study Jam",
+                "Description": "Impariamo nuove tecnlogie, insieme"
+            }
+        ]
+    }
+}
