@@ -1,32 +1,36 @@
 {
-    "communityGuideline":[
-        {
-            "name":"Sii carino",
-            "des":"We're all part of the same community, so be friendly, welcoming, and generally a nice person. Be someone that other people want to be around."
-        },
-        {
-            "name":"Be respectful and constructive",
-            "des":"Remember to be respectful and constructive with your communication to fellow members. Don't get into flamewars, make personal attacks, vent, or rant unconstructively. Everyone should take responsibility for the community and take the initiative to diffuse tension and stop a negative thread as early as possible."
-        },
-        {
-            "name":"Be collaborative",
-            "des":"Work together! We can learn a lot from each other. Share knowledge, and help each other out."
-        },
-        {
-            "name":"Participate",
-            "des":"Join in on discussions, show up for in-person meetings regularly, offer feedback, and help implement that feedback."
-        },
-        {
-            "name":"Step down considerately",
-            "des":"If you have some form of responsibility in your community, be aware of your own constraints. If you know that a new job or personal situation will limit your time, find someone who can take over for you and transfer the relevant information (contacts, passwords, etc.) for a smooth transition."
-        },
-        {
-            "name":"Basic etiquette for online discussions",
-            "des":"Don’t send messages to a big list that only need to go to one person. Keep off topic conversations to a minimum. Don’t be spammy by advertising or promoting personal projects which are off topic."
-        }
-
-    ],
-    "coc":"When you join our programs, you’re joining a community. And like any growing community, a few ground rules about expected behavior are good for everyone. These guidelines cover both online (e.g. mailing lists, social channels) and offline (e.g. in-person meetups) behavior. Violations of this code of conduct can result in members being removed from the program. Use your best judgement, and if you’d like more clarity or have questions feel free to reach out."
+    "AboutPage": {
+        "About" : "Informazioni su",
+        "CommunityGuideline":[
+            {
+                "name":"Cerca di essere gentile",
+                "des":"Siamo tutti parte della stessa community, per cui cerca di essere amichevole, accogliente e generalmente una buona persona. Cerca di essere qualcuno che gli altri vogliono avere attorno."
+            },
+            {
+                "name":"Cerca di essere rispettoso e costruttivo",
+                "des":"Ricorda di essere rispettoso e costruttivo quando comunichi con gli altri membri. Non istigare, non fare attacchi personali, non sfogarti e non lamentarti in maniera non costruttiva. Chiunque è responsabile per la community e per prendere l'iniziativa per calmare eventuali tensioni e fermare situazioni negative il prima possibile."
+            },
+            {
+                "name":"Cerca di essere collaborativo",
+                "des":"Lavoriamo insieme! Possiamo imparare un sacco gli uni dagli altri. Condividiamo la conoscenza e aiutamoci a vicenda."
+            },
+            {
+                "name":"Partecipa",
+                "des":"Partecipa alle discussioni, vieni ai meetup regolarmente, offri a tutti i tuoi feedback, e aiuta gli altri a implementare quel feedback."
+            },
+            {
+                "name":"Se necessario, fatti da parte",
+                "des":"Se hai qualche tipo di responsabilità nella tua community, cerca di essere consapevole dei tuoi vincoli. Se sai che un nuovo lavoro o una situazione personale limiterà il tuo tempo, trova qualcuno che possa occuparsi della community per te e comunicagli le informazioni più rilevanti (contatti, password, ecc.) per agevolare il passaggio."
+            },
+            {
+                "name":"Etiquette di base per le discussioni online",
+                "des":"Non inviare pubblicamente messaggi indirizzati ad una singola persona. Mantieni al minimo le conversazioni off topic. Non pubblicizzare in maniera inopportuna progetti personali che sono off topic."
+            }
+    
+        ],
+        "CocTitle" : "Codice di Condotta",
+        "Coc":"When you join our programs, you’re joining a community. And like any growing community, a few ground rules about expected behavior are good for everyone. These guidelines cover both online (e.g. mailing lists, social channels) and offline (e.g. in-person meetups) behavior. Violations of this code of conduct can result in members being removed from the program. Use your best judgement, and if you’d like more clarity or have questions feel free to reach out."
+    }
 
 
 }

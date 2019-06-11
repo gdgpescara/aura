@@ -7,7 +7,7 @@
 
                 <v-expansion-panel >
                     <v-expansion-panel-content
-                    v-for="(item,i) in aboutPage.communityGuideline"
+                    v-for="(item,i) in $t('AboutPage.CommunityGuideline')"
                     :key="i"
                     >
                         <div slot="header" class="google-font" style="font-size:120%">{{item.name}}</div>
@@ -49,5 +49,8 @@ export default {
             aboutPage:aboutPage
         }
     },
+    created() {
+        //console.log($t('AboutPage.CommunityGuideline'))
+    }
 }
 </script>
