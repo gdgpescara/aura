@@ -1,6 +1,7 @@
 {
     "AboutPage": {
         "About" : "Informazioni su",
+        "CommunityGuidelines": "Linee guida della Community",
         "CommunityGuideline":[
             {
                 "name":"Cerca di essere gentile",
@@ -29,7 +30,44 @@
     
         ],
         "CocTitle" : "Codice di Condotta",
-        "Coc":"Quando entri a far parte dei nostri eventi, sei parte di una community. E come in ogni community, è buona norma avere alcune regole comportamentali di base. Queste linee guida coprono sia comportamenti da tenere online (ad esempio, nei nostri canali social) sia offline (ad esempio, meetup in persona). Violazioni di questo codice di condotta potrebbero portare alla rimozione di alcuni membri dalla community. Usa il tuo buon senso, e contattaci se hai ulteriori domande o hai bisogno di chiarimenti."
+        "Coc":"Quando entri a far parte dei nostri eventi, sei parte di una community. E come in ogni community, è buona norma avere alcune regole comportamentali di base. Queste linee guida coprono sia comportamenti da tenere online (ad esempio, nei nostri canali social) sia offline (ad esempio, meetup in persona). Violazioni di questo codice di condotta potrebbero portare alla rimozione di alcuni membri dalla community. Usa il tuo buon senso, e contattaci se hai ulteriori domande o hai bisogno di chiarimenti.",
+        "AntiHarassment": {
+            "Title": "Regolamento anti-molestie",
+            "WhyTitle": "Perché abbiamo un regolamento contro le molestie agli eventi del GDG Pescara?",
+            "WhyList": [
+                "Crea delle aspettative sul comportamento che ci si attende di trovare all'evento. Semplicemente, la presenza di un regolamento contro le molestie è utile a prevenire le molestie.",
+                "Incoraggia a partecipare le persone che hanno vissuto cattive esperienze ad altri eventi.",
+                "Fornisce allo staff istruzioni su come gestire i comportamenti molesti in maniera veloce, con la minima interruzione possibile dell'evento."
+            ],
+            "RegardlessTitle": "GDG Pescara is dedicated to providing a harassment-free event experience for everyone, regardless of: ",
+            "RegardlessList": [
+                "Gender",
+                "Sexual Orientation",
+                "Disability",
+                "Gender Identity",
+                "Age",
+                "Race",
+                "Religion",
+                "Nationality"
+            ],
+            "RegardlessBottom": "The above is not an exhaustive list -- we do not tolerate harassment of event spanarticipants in any form.",
+            "Language": "Sexual language and imagery is not appropriate for any event venue, including talks. Event participants violating these rules may be expelled from the event, and event banned from future events at the discretion of the event organizers/management.",
+            "LimitedTitle": "Harassment includes (but is not limited to):",
+            "LimitedList": [
+                "Offensive verbal comments related to gender, sexual orientation, disability, gender identity, age, race, religion",
+                "The use or display of sexual images in public spaces",
+                "Deliberate intimidation",
+                "Stalking",
+                "Harassing photography or recording",
+                "Sustained disruption of talks or other events",
+                "Inappropriate physical contact",
+                "Unwelcome sexual attention"
+            ],
+            "Stop": "Participants asked to stop any harassing behavior are expected to comply immediately.",
+            "Partners": "Exhibiting partners and guests are also subject to the anti-harassment policy. In particular, exhibitors and speakers should not use sexualized images, activities, or other material, or otherwise create a sexualized environment in their slide decks, exhibit material, exhibit staffing, promotional items or demo material.",
+            "Notice": "If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an organizer or event volunteer immediately. Organizers and event volunteers may be identified by t-shirts or special badges/lanyards. Organizers will investigate the issue and take appropriate action. This may include helping participants contact venue security or local law enforcement, provide escorts, or otherwise assist these experiencing harassment to fell safe for the duration of the event.",
+            "Final": "Though we hope that we never have to invoke this policy, we believe that having this document helps everyone think a little more about how their actions and words affect the whole community, as well as individuals in the community."
+        }
     }
 
 

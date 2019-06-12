@@ -12,16 +12,9 @@ import './style.css'
 import './filters/truncate'
 import i18n from './i18n'
 import FlagIcon from 'vue-flag-icon'
-import BootstrapVue from 'bootstrap-vue'
-import BootstrapSelect from 'bootstrap-select'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-import 'bootstrap-select/dist/css/bootstrap-select.css'
 
 Vue.use(VueAxios, axios)
 Vue.use(FlagIcon)
-Vue.use(BootstrapVue)
-Vue.use(BootstrapSelect)
 Vue.config.productionTip = false
 
 
