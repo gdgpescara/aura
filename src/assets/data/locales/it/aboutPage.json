@@ -39,34 +39,34 @@
                 "Incoraggia a partecipare le persone che hanno vissuto cattive esperienze ad altri eventi.",
                 "Fornisce allo staff istruzioni su come gestire i comportamenti molesti in maniera veloce, con la minima interruzione possibile dell'evento."
             ],
-            "RegardlessTitle": "GDG Pescara is dedicated to providing a harassment-free event experience for everyone, regardless of: ",
+            "RegardlessTitle": "GDG Pescara si impegna ad organizzare event privi di qualsiasi tipo di molestie, a prescindere da: ",
             "RegardlessList": [
-                "Gender",
-                "Sexual Orientation",
-                "Disability",
-                "Gender Identity",
-                "Age",
-                "Race",
-                "Religion",
-                "Nationality"
+                "Sesso",
+                "Orientamento sessual",
+                "Disabilità",
+                "Identità di genere",
+                "Età",
+                "Razza",
+                "Religione",
+                "Nazionalità"
             ],
-            "RegardlessBottom": "The above is not an exhaustive list -- we do not tolerate harassment of event spanarticipants in any form.",
-            "Language": "Sexual language and imagery is not appropriate for any event venue, including talks. Event participants violating these rules may be expelled from the event, and event banned from future events at the discretion of the event organizers/management.",
-            "LimitedTitle": "Harassment includes (but is not limited to):",
+            "RegardlessBottom": "Il precedente non è un elenco esaustivo -- non tolleriamo molestie di alcuna forma.",
+            "Language": "Linguaggio e rappresentazioni a sfondo sessuale non sono appropriati in alcun evento, inclusi i talk proposti durante gli eventi. I partecipanti ad un evento che dovessero violare queste regole potrebbero essere espulsi dall'evento e banditi dagli eventi futuri, a discrezione degli organizzatori.",
+            "LimitedTitle": "Le molestie includono (ma non sono limitate a):",
             "LimitedList": [
-                "Offensive verbal comments related to gender, sexual orientation, disability, gender identity, age, race, religion",
-                "The use or display of sexual images in public spaces",
-                "Deliberate intimidation",
+                "Commenti verbali offensivi relativi a genere, orientamento o identità sessuale, disabilità, età, razza, religione",
+                "L'utilizzo o la visualizzazione di immagini a sfondo sessuale in luogo pubblico",
+                "Intimidazioni deliberate",
                 "Stalking",
-                "Harassing photography or recording",
-                "Sustained disruption of talks or other events",
-                "Inappropriate physical contact",
-                "Unwelcome sexual attention"
+                "Registrazioni o foto moleste",
+                "Interruzioni ripetute di talk o altri eventi",
+                "Contatto fisico inappropriato",
+                "Attenzioni sessuali sgradite"
             ],
-            "Stop": "Participants asked to stop any harassing behavior are expected to comply immediately.",
-            "Partners": "Exhibiting partners and guests are also subject to the anti-harassment policy. In particular, exhibitors and speakers should not use sexualized images, activities, or other material, or otherwise create a sexualized environment in their slide decks, exhibit material, exhibit staffing, promotional items or demo material.",
-            "Notice": "If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an organizer or event volunteer immediately. Organizers and event volunteers may be identified by t-shirts or special badges/lanyards. Organizers will investigate the issue and take appropriate action. This may include helping participants contact venue security or local law enforcement, provide escorts, or otherwise assist these experiencing harassment to fell safe for the duration of the event.",
-            "Final": "Though we hope that we never have to invoke this policy, we believe that having this document helps everyone think a little more about how their actions and words affect the whole community, as well as individuals in the community."
+            "Stop": "Ci attendiamo che i partecipanti a cui viene richiesta l'interruzione di un comportamento molesto aderiscano immediatamente alla richiesta.",
+            "Partners": "Il regolamento anti-molestie si applica anche ad ospiti, speaker e sponsor. In particolare, sponsor e speaker non possono utilizzare immagini o altro materiale a sfondo sessuale, nè usare riferimenti sessuali all'interno delle proprie slide, del materiale in esibizione, degli oggetti personali o promozionali.",
+            "Notice": "Se stai subendo delle molestie, o noti che qualcuno viene molestato, o sei preoccupato di qualsiasi situazione, ti preghiamo di contattare immediatamente un organizzatore o un elemento dello staff. Gli organizzatori e i membri dello staff possono essere identificati da magliette o da badge speciali. Gli organizzatori investigheranno sulla situazione e prenderanno le misure più appropriate, che potrebbero includere la richiesta di aiuto agli organi di sicurezza dei locali ospitanti o alle forze dell'ordine e l'assistenza ai molestati per fali sentire al sicuro durante l'evento.",
+            "Final": "Sebbene speriamo di non dover mai invocare questo regolamento, crediamo che lo stesso possa aiutare chiunque a prendere maggiormente in considerazione il modo in cui le proprie azioni e parole influenzino l'intera community e i singoli individui della community."
         }
     }
 
