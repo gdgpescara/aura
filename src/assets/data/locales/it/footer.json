@@ -28,34 +28,16 @@
             },
             {
                 "LinkName" : "Media Kit",
-                "Link" : "https://drive.google.com/drive/folders/16rHDaHbuS_YApMWgJHUxygpd-A5gCkLK"
-            }
-        ],
-        "DevConsole":[
-            {
-                "LinkName" : "Google API Console",
-                "Link" : "https://console.developers.google.com/"
-            },
-            {
-                "LinkName" : "GCP Console",
-                "Link" : "https://console.cloud.google.com/"
-            },
-            {
-                "LinkName" : "Google Play Console",
-                "Link" : "https://console.cloud.google.com/"
-            },
-            {
-                "LinkName" : "Firebase Console",
-                "Link" : "https://console.firebase.google.com/"
+                "Link" : "https://drive.google.com/drive/folders/1rl05u_2FCSu-eZ92jflz-mEttcWbv1Sz"
             }
         ],
         "FooterEndSession":[
             {
-                "LinkName" : "Code of Conduct",
-                "Link" : "https://docs.google.com/document/d/1Wz_w6Z7usMnXKFMpOY4IPbA35twK7Uc4CAxScGDiwOk/edit"
+                "LinkName" : "Codice di Condotta",
+                "Link" : "https://docs.google.com/document/d/19jCmxeBzXgWCuxxQd4x1NRkR15cRD51pAoyGgDbw99c/edit"
             },
             {
-                "LinkName" : "Terms & Servies",
+                "LinkName" : "Termini & Servizi",
                 "Link" : "https://docs.google.com/document/d/14g3fv9NItiB8Hd-YGYyVYd2N4LRxe6Bx3syWse_wsiA/edit?usp=sharing"
             }
         ]
