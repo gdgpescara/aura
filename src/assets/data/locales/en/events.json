@@ -1,0 +1,22 @@
+{
+    "Events": {
+        "Close": "Close",
+        "Upcoming": "Upcoming Events",
+        "UpcomingDescription": "Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects.",
+        "More": "See More",
+        "MoreAbout": "See More about",
+        "UpcomingNotFound": "Upcoming Events Not Found!",
+        "PastNotFound": "Past Events Not Found!",
+        "Past": "Directory of past events",
+        "Reversal": "Events are listed in reverse chronological order by date.",
+        "Recent": "Here are the recent 6 meetups. To know more about the past meetups",
+        "Click": "Click here",
+        "Events": "GDG Pescara's Events",
+        "Questions": "Questions? Please contact ",
+        "OutEvents": "Our Events & Meetups",
+        "NotFound": "Events Not Found!",
+        "ShowcaseMessage": "At sessions that span from the technical to the visionary, let’s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us."
+    }
+
+
+}

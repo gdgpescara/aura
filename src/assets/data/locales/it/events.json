@@ -1,0 +1,22 @@
+{
+    "Events": {
+        "Close" : "Chiudi",
+        "Upcoming": "Prossimi Eventi",
+        "UpcomingDescription": "I nostri eventi sono rivolti a sviluppatori, neofiti, manager e organizzazioni interessate alle tecnologie Google in via generale o per utilizzarle nei propri progetti.",
+        "More": "Altro",
+        "MoreAbout": "Maggiori informazioni su",
+        "UpcomingNotFound": "Nessun nuovo evento programmato!",
+        "PastNotFound": "Nessun evento passato trovato!",
+        "Past": "I nostri Eventi passati",
+        "Reversal": "Gli eventi sono elencati in ordine cronologico inverso.",
+        "Recent": "Qui sono elencati i 6 eventi più recenti. Per vedere altri eventi passati",
+        "Click": "Clicca qui",
+        "Events": "Eventi del GDG Pescara",
+        "Questions": "Hai bisogno di maggiori informazioni? Contattaci su ",
+        "OutEvents": "I nostri eventi",
+        "NotFound": "Nessun evento trovato!",
+        "ShowcaseMessage": "Nelle sessioni che vanno dal tecnico al visionario, festeggiamo e scopriamo cosa le nuove tecnologie possono permettere, come l'innovazione di prodotto, l'open source, il ML e l'AI possono essere una spinta per le aziende e risolvere i grandi problemi che hanno un impatto su tutti noi."
+    }
+
+
+}
