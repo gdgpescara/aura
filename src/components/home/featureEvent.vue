@@ -3,8 +3,8 @@
         <v-layout wrap align-center justify-center row fill-height class="mt-2 elevation-2 white" style="border:1px solid #e0e0e0;border-radius:5px">
             <v-flex xs12 sm4 md3 lg3 class="pa-4" >
                 <v-img
-                    :src="getImgUrl(eventDetails.EventImage)"
-                    :lazy-src="getImgUrl(eventDetails.EventImage)"
+                    :src="getImgUrl($t('Featured.EventImage'))"
+                    :lazy-src="getImgUrl($t('Featured.EventImage'))"
                     width="100%">
                     <v-layout
                         slot="placeholder"
@@ -18,55 +18,55 @@
                 </v-img>
             </v-flex>
            <v-flex xs12 sm8 md9 lg9 class="pa-2 py-4 px-3" >
-                <p class="google-font mb-0" style="font-size:150%;color:rgb(2, 119, 189)">{{eventDetails.FeatureEventName}}</p>
+                <p class="google-font mb-0" style="font-size:150%;color:rgb(2, 119, 189)">{{ $t('Featured.FeatureEventName') }}</p>
                 <span class="google-font mt-1 mb-0 grey--text"  style="font-size:105%">
                     <v-icon small>insert_invitation</v-icon>
-                    {{eventDetails.EventDate.Date +'/'+ eventDetails.EventDate.Month +'/'+ eventDetails.EventDate.Year}} 
+                    {{$t('Featured.EventDate.Date') +'/'+ $t('Featured.EventDate.Month') +'/'+ $t('Featured.EventDate.Year')}} 
                     &nbsp;
                     <v-icon small>watch_later</v-icon>
-                    {{eventDetails.EventTime.StartTime +' - '+ eventDetails.EventTime.EndTime}}
+                    {{$t('Featured.EventTime.StartTime') +' - '+ $t('Featured.EventTime.EndTime')}}
                     &nbsp;
                     <v-icon small>map</v-icon>
-                    {{eventDetails.EventVenue | summery(50)}} <a :href="eventDetails.EventVenueMapLink" target="_blank">(Map)</a>
+                    {{$t('Featured.EventVenue') | summery(50)}} <a :href="$t('Featured.EventVenueMapLink')" target="_blank">({{ $t('Featured.Map') }})</a>
                 </span>    
                <p class="google-font mt-2 mb-1" style="font-size:115%;color:#757575">
-                   {{eventDetails.EventDescription}}
+                   {{$t('Featured.EventDescription')}}
                </p>
                 
-                <v-btn color="#1a73e8" v-if="eventDetails.RegistrationLink.length>0" :href="eventDetails.RegistrationLink" target="_blank" class="ma-0 elevation-0 my-2" dark style="text-transform: capitalize;border-radius:5px;"> 
-                    Registration Link
+                <v-btn color="#1a73e8" v-if="$t('Featured.RegistrationLink').length>0" :href="$t('Featured.RegistrationLink')" target="_blank" class="ma-0 elevation-0 my-2" dark style="text-transform: capitalize;border-radius:5px;"> 
+                    {{ $t('Featured.Link') }}
                 </v-btn>
                 &nbsp;
 
-                <v-tooltip top slot="activator" v-if="eventDetails.EventWebsite.length>0">
+                <v-tooltip top slot="activator" v-if="$t('Featured.EventWebsite').length>0">
                     <v-btn flat icon color="#616161" class="ma-0 elevation-0" slot="activator" 
-                    :href="eventDetails.EventWebsite"
+                    :href="$t('Featured.EventWebsite')"
                     target="_blank"
                     style="text-transform: capitalize;border-radius:5px;"> 
                         <v-icon>language</v-icon>
                     </v-btn>
-                    <span>See {{eventDetails.FeatureEventName}} Website</span>
+                    <span>{{ $t('Featured.See') }} {{$t('Featured.FeatureEventName')}} Website</span>
                 </v-tooltip>
 
                 <v-tooltip top slot="activator" 
-                v-if="eventDetails.MeetupLink.length>0">
+                v-if="$t('Featured.MeetupLink').length>0">
                     <v-btn flat icon color="#616161"
-                    :href="eventDetails.MeetupLink"
+                    :href="$t('Featured.MeetupLink')"
                     target="_blank"
                     class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
                         <v-icon>fab fa-meetup</v-icon>
                     </v-btn>
-                    <span>See {{eventDetails.FeatureEventName}} Meetup</span>
+                    <span>{{ $t('Featured.See') }} {{$t('Featured.FeatureEventName')}} Meetup</span>
                 </v-tooltip>
 
-                <v-tooltip top slot="activator" v-if="eventDetails.FBEventPageURL.length>0">
+                <v-tooltip top slot="activator" v-if="$t('Featured.FBEventPageURL').length>0">
                     <v-btn flat icon color="#616161"
-                    :href="eventDetails.FBEventPageURL"
+                    :href="$t('Featured.FBEventPageURL')"
                     target="_blank"
                     class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
                         <v-icon >fab fa-facebook-f</v-icon>
                     </v-btn>
-                    <span>See {{eventDetails.FeatureEventName}} Facebook Page</span>
+                    <span>{{ $t('Featured.See') }} {{$t('Featured.FeatureEventName')}} Facebook Page</span>
                 </v-tooltip>
             
             </v-flex> 
@@ -76,17 +76,9 @@
 </template>
 
 <script>
-import eventDetails from '@/assets/data/featureEvent.json'
+    
 export default {
     components:{
-    },
-    data() {
-        return {
-            eventDetails:eventDetails
-        }
-    },
-    created(){
-        
     },
     methods:{
         getImgUrl(pic) {

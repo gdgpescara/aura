@@ -16,13 +16,3 @@
     </v-container>
 </template>
 
-<script>
-import aboutPage from '@/assets/data/aboutPage.json'
-export default {
-    data() {
-        return {
-            aboutPage:aboutPage
-        }
-    },
-}
-</script>

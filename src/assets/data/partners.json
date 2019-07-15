@@ -1,18 +1,21 @@
-[
-    {
-        "name":"GDG",
-        "link":"https://developers.google.com/groups",
-        "img":"gdglogo.png"
-    },
-    {
-        "name":"WomenTechmakers",
-        "link":"https://www.womentechmakers.com/",
-        "img":"wtm.png"
-    },
-    {
-        "name":"GDG[x]",
-        "link":"https://github.com/gdg-x",
-        "img":"gdg-x.svg"
-    }
-
-]
+{
+    "General": [
+        {
+            "name":"GDG",
+            "link":"https://developers.google.com/groups",
+            "img":"gdglogo.png"
+        },
+        {
+            "name":"GDG[x]",
+            "link":"https://github.com/gdg-x",
+            "img":"gdg-x.svg"
+        }
+    ],
+    "Community": [
+        {
+            "name":"Lean Startup Lab Pescara",
+            "link":"https://www.meetup.com/it-IT/Lean-Startup-Lab/",
+            "img":"leanstartup.png"
+        }
+    ]
+}

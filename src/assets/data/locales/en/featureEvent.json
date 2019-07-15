@@ -1,0 +1,27 @@
+{
+    "Featured": {
+        "FeatureEventName":"GDG DevFest Levante 2019",
+        "EventImage":"devfestlevante.jpg",
+        "EventDate":{
+            "Date":"24",
+            "Month":"8",
+            "Year":"2019"
+        },
+        "EventTime":{
+            "StartTime":"09:00 AM",
+            "EndTime":"07:30 PM"
+        },
+        "EventVenue":"Baia di Gallipoli Camping Resort, SP215, Gallipoli (LE) - Italy",
+        "EventVenueMapLink":"https://goo.gl/maps/WHh2495U9dFXLs5x8",
+        "EventWebsite":"https://devfestlevante.eu/",
+        "EventDescription":"DevFest Levante is a Summer Camp organized by the GDG of Bari and GDG Pescara from August 24th to 31st at the Camping Resort Baia di Gallipoli. You will spend you time between the beach and the workshops!",
+        "MeetupLink":"https://www.meetup.com/GDG-Bari/events/261703116/",
+        "RegistrationLink":"https://docs.google.com/forms/d/e/1FAIpQLSe8e2zxBKD4pltsJNqKLyhL9PwVffTAIQhgGTIE9J3rfgDdog/viewform",
+        "FBEventPageURL":"https://www.facebook.com/events/baia-di-gallipoli-camping-resort/devfest-levante-2019/332745747360657/",
+        "Map": "Map",
+        "Link": "Registration Link",
+        "See": "See",
+        "Featured": "Our next Featured Event"
+    }
+}
+
