@@ -27,7 +27,7 @@
       >
         {{ $t(link.labelKey) }}
     </v-btn>
-    <select v-model="$i18n.locale" id="localePicker" data-width="fit">
+    <select v-model="lang" @change="onLanguageChange" id="localePicker" data-width="fit">
       <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang.locale" >{{lang.flag}}</option>
     </select>
   
@@ -61,7 +61,8 @@
   export default {
     data() {
       return {
-        langs: loadLocales()
+        langs: loadLocales(),
+        lang: this.$i18n.locale
       }
     },
     computed: {
@@ -73,6 +74,10 @@
         e.stopPropagation()
         if (item.to || !item.href) return
         this.$vuetify.goTo(item.href)
+      },
+      onLanguageChange(event, e) {
+        this.$i18n.locale = this.lang
+        this.$router.push('/'+this.lang+'/'+this.$route.name)
       }
     }
   }

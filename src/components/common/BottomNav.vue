@@ -13,7 +13,7 @@
         flat
         value="Home"
         router
-        to="/home"
+        to="home"
       >
         <span>Home</span>
         <v-icon>dashboard</v-icon>
@@ -24,7 +24,7 @@
         flat
         value="events"
         router
-        to="/events"
+        to="events"
       >
         <span>Events</span>
         <v-icon>rounded_corner</v-icon>
@@ -35,7 +35,7 @@
         flat
         value="team"
         router
-        to="/team"
+        to="team"
       >
         <span>Team</span>
         <v-icon>group</v-icon>
@@ -46,7 +46,7 @@
         flat
         value="about"
         router
-        to="/about"
+        to="about"
       >
         <span>About</span>
         <v-icon>toc</v-icon>
@@ -54,16 +54,16 @@
 
       
 
-      <!-- <v-btn
+      <v-btn
         color="#518FF5"
         flat
         value="contact"
         router
-        to="/contact"
+        to="contact"
       >
-        <span>Contant</span>
+        <span>Contact</span>
         <v-icon>person</v-icon>
-      </v-btn> -->
+      </v-btn>
 
     </v-bottom-nav>
   </v-card>

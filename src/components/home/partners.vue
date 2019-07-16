@@ -8,7 +8,7 @@
             </v-flex>
 
             <v-flex xs12 md12 class="mt-2">
-                <p class="google-font my-2" style="font-size:110%">{{ $t('Partners.GeneralPartners') }}</p>
+                <p class="google-font my-2" style="font-size:110%">{{$t('Partners.GeneralPartners')}}</p>
                 
 
                 <v-layout row wrap class="transparent">
@@ -63,7 +63,7 @@
 
             </v-flex>
             <v-flex xs12 md12 class="mt-2">
-                <p class="google-font my-2" style="font-size:110%">{{ $t('Partners.CommunityPartners') }}</p>
+                <p class="google-font my-2" style="font-size:110%">{{$t('Partners.CommunityPartners')}}</p>
                 
 
                 <v-layout row wrap class="transparent">
@@ -119,7 +119,7 @@
             </v-flex>
 
             <v-flex xs12 md12 class="mt-3">
-                <p class="google-font my-2" style="font-size:110%">{{ $t('Partners.TemplatePartners') }}</p>
+                <p class="google-font my-2" style="font-size:110%">{{$t('Partners.TemplatePartners')}}</p>
 
                 <v-layout class="transparent" >
                     <v-flex xs12 sm11 class="elevation-0 transparent">
