@@ -1,6 +1,6 @@
 {
-  "name": "GDG Web App",
-  "short_name": "GDG Web App",
+  "name": "GDG Pescara",
+  "short_name": "GDG Pescara",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
@@ -17,5 +17,5 @@
   "display": "standalone",
   "background_color": "#ffff",
   "theme_color": "#0277bd",
-  "description": "Aura is the website template that helps you to set GDG's Communities website with events, team and management in a few minutes."
+  "description": "GDG Pescara is the local community of Google's technologies passionates. The site is powered by Aura, the website template that helps you to set GDG's Communities website with events, team and management in a few minutes, created by GDG Jalandhar."
 }
